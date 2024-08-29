@@ -9,4 +9,6 @@
   <%= link_to 'Edit', edit_article_path(@article), class: "btn btn-edit" %>
   <%= link_to 'Back to List', articles_path, class: "btn btn-back" %>
   <%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-delete" %>
+
+  <span class="article-author">by <%= @article.user.username if @article.user %></span>
 </div>

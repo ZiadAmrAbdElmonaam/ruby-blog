@@ -61,3 +61,19 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #218838;
 }
+/* Styling for the author column */
+.article-author {
+  font-style: italic;
+  color: #555; /* A subtle gray color */
+  text-align: center;
+}
+
+/* Ensure that the Author header is styled and aligned properly */
+.articles-table th:last-child {
+  text-align: center;
+}
+
+/* Optional: Add some spacing to the action buttons */
+.articles-table td {
+  padding: 12px 10px;
+}

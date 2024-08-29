@@ -1,5 +1,4 @@
-/* app/assets/stylesheets/articles.css.scss */
-
+/* Styling for the article details */
 .article-details {
   background-color: #f8f9fa;
   padding: 20px;
@@ -17,8 +16,11 @@
   color: #343a40;
 }
 
+/* Styling for actions and author info */
 .actions {
   margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .actions .btn {
@@ -28,6 +30,12 @@
   color: #ffffff;
   margin-right: 10px;
   transition: background-color 0.3s ease;
+}
+
+.article-author {
+  font-style: italic;
+  color: #555;
+  margin-left: auto; /* Aligns the author text to the right */
 }
 
 .btn-edit {
